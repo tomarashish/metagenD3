@@ -1,0 +1,268 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@media (max-width: 762px){
+    .btn-responsive {
+        font-size:80%;
+        line-height: 1.4;
+        padding: 3px 6px;
+         -webkit-border-radius: 3px;        
+         -moz-border-radius: 3px;
+            border-radius: 3px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width:760px){
+    .input-responsive{
+        font-size: 60%;
+        width: 60px;
+        height:20px;
+        border-width: 0px 0px 0px 0px; 
+    }
+}
+
+@media ((min-width: 760px) and (max-width: 992px)){
+     .input-responsive{
+        font-size: 70%;
+        width:70px;
+        height:25px;
+        border-width: 0px 0px 0px 0px; 
+    }
+}
+
+/*@media only screen and (min-width : 768px) {
+    /* Make Navigation Toggle on Desktop Hover */
+  /*  .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+*/
+
+#aboutProject{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    background-color:darkgray;
+}
+
+.btn-default {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+     -webkit-border-radius: 3px;        
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+
+.btn:focus {
+  outline: none;  
+}
+
+.btn-input{
+    font-size: 13px;
+    font-weight: bold;
+    background-color: transparent;
+    width:100px;
+    height:28px;
+    border-width: 0px 0px 0px 0px; 
+}
+
+.btn.btn-raised {
+    box-shadow: 0 2px 8px rgba(0,0,0,.12),0 2px 8px rgba(0,0,0,.12);
+    transition: box-shadow .28s cubic-bezier(.4,0,.2,1);
+}
+
+.btn.btn-raised:hover,.btn:focus {
+    box-shadow: 0 4px 8px rgba(0,0,0,.50),0 4px 8px rgba(0,0,0,.50);
+    transition: box-shadow .128s cubic-bezier(.4,0,.2,1);
+}
+
+.btn-warning{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius: 10px;
+}
+
+.card {
+    margin-top: 5px;
+    background-color: #FFF;
+    border-top-width: 0;
+    border-bottom-width: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
+    -moz-box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
+    /*box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 6px rgba(0,0,0,.12);*/
+    box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card-title {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
+}
+
+.card-title [class*="icon-"] {
+ -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+.card-title:hover [class*="icon-"] {
+    :hover [class*="icon-"] {
+	color: #24a159 !important;
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    .rotate(90deg);
+    }
+}
+
+.chartLoading img{
+    height: 50px;
+    width: 50px;
+    margin: 200px 200px 200px 200px;
+}
+
+#chart{
+    position:relative;
+}
+
+.col-md-3{
+    padding-left: 10px;
+    padding-right: 0px; 
+}
+
+div#sequence{
+   padding-top: 10px;
+   padding-left: 5px;
+   /*overflow: scroll;*/
+   overflow-y: hidden;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    font: 12px sans-serif;
+    border: 5px;	
+    border-color: aliceblue;
+    border-radius: 8px;
+    padding: 8px;
+    color: cornsilk;
+    background:black;
+    pointer-events: none;
+}
+
+.dropdown.dropdown-toggle{
+    align: left;
+}
+
+.footer {
+    position: absolute;
+    padding-top: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: gainsboro;
+}
+
+.form-control{
+    width:10px;
+}
+
+h4.title {
+    text-align: center;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.header{
+    text-align: center;
+    color: rosybrown;
+    font-size : 20px;
+    font-family:fantasy;
+}
+
+#loadTestFile {
+	width: 250px;
+	height: 50px;
+	background-color: black;
+	color: gainsboro;
+	border: none;
+	font-size: 18px;
+    font-family:sans-serif;
+	font-weight: bold;
+	margin: 300px 0 0 450px;
+}
+
+.row {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#showViz {
+	/*visibility: hidden;*/
+}            
+
+text {
+    cursor: default;
+    fill: #FFF;
+    pointer-events: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../images/hex-loader2.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
+.forLastStep .introjs-skipbutton {
+        color: red;
+}
+
+.customDefault { 
+        color:black;
+}
+
+.customDefault .introjs-skipbutton {
+        border-radius: 0;
+        color: darkcyan;
+  }
